@@ -1,0 +1,3 @@
+---
+nginx_repo_url: "http://{{ gitlab_ip }}:{{ gitlab_port }}/root/docker-nginx"
+nginx_runner_token: "{{ nginx_runner_token_external }}"

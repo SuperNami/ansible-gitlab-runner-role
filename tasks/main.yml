@@ -1,0 +1,12 @@
+---
+- include: configure/apt-pinning-debian.yml
+  tags: apt_pinning_debian
+
+- include: install/repo-script.yml
+  tags: repo_script
+
+- include: install/repo-ansible.yml
+  tags: repo_ansible
+
+- include: install/install.yml
+  tags: install

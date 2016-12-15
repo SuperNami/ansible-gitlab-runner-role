@@ -1,0 +1,11 @@
+---
+- name: install gitlab-runner
+  package: name=gitlab-ci-multi-runner
+           update_cache=yes
+           state=present
+
+
+- name: add the gitlab-runner user to the docker group
+  user: name=gitlab-runner
+        groups=docker
+        append=yes

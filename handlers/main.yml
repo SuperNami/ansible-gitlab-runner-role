@@ -1,0 +1,6 @@
+---
+- name: start gitlab-runner
+  service: name=gitlab-runner state=started
+
+- name: restart gitlab-runner
+  service: name=gitlab-runner state=restarted

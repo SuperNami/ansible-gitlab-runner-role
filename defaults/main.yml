@@ -1,0 +1,3 @@
+---
+concurrent_runners_per_host: 1
+check_gitlab_new_builds_interval: 0
